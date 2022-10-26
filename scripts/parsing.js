@@ -19,5 +19,17 @@ function parseAndDisplayName(fullName) {
     let lastName = fullName.substring(indexOfSpace + 1);
     console.log(firstName, lastName, fullName);
 
+    let lastSpan = document.getElementById('last');
+    let firstSpan = document.getElementById('first');
+    let fullSpan = document.getElementById('fullname');
+
+    console.log(lastSpan);
+    console.log(firstName);
+    console.log(fullName);
+
+    lastSpan.innerText = lastName ;
+    firstSpan.innerText = firstName;
+    fullSpan.innerText = fullName;
+
 }
 parseAndDisplayName('sam bhandari');
