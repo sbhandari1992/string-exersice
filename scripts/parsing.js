@@ -14,7 +14,7 @@
 function parseAndDisplayName(fullName) {
     let indexOfSpace = fullName.indexOf(' ');
     // console.log(indexOfSpace);
-    let firstName = fullName.substring(0,indexOfSpace);
+    let firstName = fullNitame.substring(0,indexOfSpace);
     // console.log(firstName);
     let lastName = fullName.substring(indexOfSpace + 1);
     console.log(firstName, lastName, fullName);

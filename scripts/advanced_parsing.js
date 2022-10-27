@@ -2,6 +2,7 @@
 function parseAndDisplayName(fullName) {
 
     let splitName = fullName.split(' ');
+    console.log(splitName);
     let firstName = splitName[0];
     let middleName = splitName.slice(1, splitName.length - 1).join(' ');
     let lastName = (splitName[splitName.length - 1]);
